@@ -41,6 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ------------------ sort alphabetically ------------------
   services.sort((a, b) => a.title.localeCompare(b.title));
+  services.push({
+    title: "Any Other Puja Request",
+    description:
+      "If you have a specific puja or ritual in mind that is not listed, please let us know. We can accommodate various Vedic ceremonies tailored to your needs.",
+    img: "images/generic.jpg"
+  });
+  
 
   // ------------------ DOM references (after DOMContentLoaded) ------------------
   const servicesGrid = document.querySelector(".services-grid");
