@@ -1,0 +1,23 @@
+# robots.txt for North Indian Pandit Website
+
+# Allow all bots to crawl the entire site
+User-agent: *
+Allow: /
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Disallow private areas if any
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://northpanditji.com/sitemap.xml
